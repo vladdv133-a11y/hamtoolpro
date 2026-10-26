@@ -1,7 +1,0 @@
-[package]
-name = "hamtool_native"
-version = "0.1.0"
-edition = "2021"
-[lib]
-name = "hamtool_native"
-crate-type = ["cdylib", "staticlib"]

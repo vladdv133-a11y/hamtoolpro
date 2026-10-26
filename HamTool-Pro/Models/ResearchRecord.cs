@@ -1,3 +1,0 @@
-namespace HamTool.Models;
-public sealed class ResearchRecord { public long Id {get;set;} public string CaseName {get;set;}="General"; public string QueryType {get;set;}="Keyword"; public string Query {get;set;}=""; public string CreatedAt {get;set;}=""; public string Notes {get;set;}=""; }
-public sealed class AppSettings { public string Theme {get;set;}="Light"; public string Language {get;set;}="uk"; public string DefaultExport {get;set;}="JSON"; public bool ConfirmBeforeClear {get;set;}=true; public bool SaveSearchHistory {get;set;}=true; public bool OpenResultsInBrowser {get;set;}=true; public bool IncludeTimestamps {get;set;}=true; public string DefaultCase {get;set;}="General"; public int MaxResultsShown {get;set;}=1000; }
